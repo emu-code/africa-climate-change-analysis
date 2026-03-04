@@ -71,23 +71,6 @@ This project analyzes temperature data from five African countries spanning 43 y
 
 ---
 
-##  Technical Approach
-
-### Data Quality Assessment
-Before analysis, I evaluated data quality across all variables:
-
-| Country  | TAVG Missing | TMAX Missing | TMIN Missing | Decision |
-|----------|--------------|--------------|--------------|----------|
-| Tunisia  | 0.0%         | 21.6%        | 30.3%        | ✅ Keep   |
-| Cameroon | 0.0%         | 43.3%        | 40.9%        | ✅ Keep   |
-| Senegal  | 0.8%         | 17.4%        | 28.6%        | ✅ Keep   |
-| Egypt    | 1.7%         | 16.0%        | 19.3%        | ✅ Keep   |
-| Angola   | 19.3%        | 87.7%        | 84.2%        | ❌ Drop   |
-
-**Decision rationale:** Angola's data quality was insufficient, particularly for the critical 1980-1990 period where ~100% of data was missing.
-
----
-
 
 ##  Visualizations
 
